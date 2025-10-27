@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     int currSum = 0;
-    int maxSum = 0;
+    int maxSum = INT_MIN;
     vector<int> vec = {5,4,-1,7,8};
 
     for(int i = 0; i < vec.size(); i++){
